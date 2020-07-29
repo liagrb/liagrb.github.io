@@ -1930,12 +1930,12 @@ pre code {
 }
 .reading-progress-bar {
   background: #007ddc;
-  height: 5px;
+  height: 10px;
   left: 0;
   position: fixed;
   width: 0;
   z-index: 1500;
-  top: 0;
+  bottom: 0;
 }
 .post-body {
   font-family: Lato, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -2953,7 +2953,7 @@ hr {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #c4a232;
+  background: #6fcfff;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
